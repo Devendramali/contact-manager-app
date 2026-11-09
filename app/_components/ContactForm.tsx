@@ -37,7 +37,7 @@ export const ContactForm = ({ action, contact }: ContactFormProps) => {
                 </div>
             </div>
             {state?.error && <p className="m-0 text-xs text-red-600">{state.error}</p>}
-            <button type="submit" disabled={isPending} className="mt-1 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-[10px] bg-gradient-to-br from-blue-600 to-blue-700 px-5 text-sm font-bold text-white shadow-[0_7px_16px_rgba(21,94,239,0.17)] transition hover:-translate-y-0.5 hover:from-blue-700 hover:to-blue-800 hover:shadow-lg disabled:cursor-wait disabled:opacity-60">
+            <button type="submit" disabled={isPending} className="mt-1 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-[10px] bg-gradient-to-br from-blue-600 cursor-pointer to-blue-700 px-5 text-sm font-bold text-white shadow-[0_7px_16px_rgba(21,94,239,0.17)] transition hover:-translate-y-0.5 hover:from-blue-700 hover:to-blue-800 hover:shadow-lg disabled:cursor-wait disabled:opacity-60">
                 {isPending ? "Saving..." : contact ? "Update Contact" : "Save Contact"}
             </button>
             <Link href="/contact" className="mt-px flex items-center justify-center gap-2 text-[13px] font-semibold text-slate-500 transition hover:text-blue-700"><FiArrowLeft /> Back to contacts</Link>

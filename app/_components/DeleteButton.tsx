@@ -19,7 +19,7 @@ export const DeleteButton = ({ action, contact }: DeleteBtnProps) => {
                 onClick={(event) => {
                     if (!confirm("Are you sure you want to delete this contact?")) event.preventDefault();
                 }}
-                className="inline-flex min-h-[39px] items-center justify-center gap-2 rounded-lg border border-red-300 bg-white px-[13px] text-[13px] font-semibold text-red-600 transition hover:border-red-600 hover:bg-red-50"
+                className="inline-flex min-h-[39px] items-center justify-center gap-2 rounded-lg border border-red-300 bg-white px-[13px] text-[13px] font-semibold text-red-600 transition cursor-pointer hover:border-red-600 hover:bg-red-50"
                 aria-label="Delete contact"
             >
                 <FiTrash2 className="h-4 w-4" /> <span>Delete</span>

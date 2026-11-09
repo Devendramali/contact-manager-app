@@ -25,8 +25,8 @@ const NavbarContent = async () => {
                 </>
             ) : (
                 <>
-                    <Link href="/login" className="flex min-h-14 w-full items-center gap-4 rounded-xl px-5 text-left text-[17px] font-semibold text-white transition hover:bg-blue-400/40 max-[640px]:min-h-10 max-[640px]:w-auto max-[640px]:gap-2 max-[640px]:px-3 max-[640px]:text-[13px]"><FiLogIn /> <span>Login</span></Link>
-                    <Link href="/register" className="flex min-h-14 w-full items-center gap-4 rounded-xl px-5 text-left text-[17px] font-semibold text-white transition hover:bg-blue-400/40 max-[640px]:min-h-10 max-[640px]:w-auto max-[640px]:gap-2 max-[640px]:px-3 max-[640px]:text-[13px]"><FiUserPlus /> <span>Register</span></Link>
+                    <Link href="/login" className="flex min-h-14 w-full items-center gap-4 rounded-xl px-5 text-left text-[17px] font-semibold text-white transition hover:bg-blue-400/40 max-[640px]:min-h-10 max-[640px]:w-auto max-[640px]:gap-2 max-[640px]:px-3 max-[640px]:text-[13px] cursor-pointer"><FiLogIn /> <span>Login</span></Link>
+                    <Link href="/register" className="flex min-h-14 w-full items-center gap-4 rounded-xl px-5 text-left text-[17px] font-semibold text-white transition hover:bg-blue-400/40 max-[640px]:min-h-10 max-[640px]:w-auto max-[640px]:gap-2 max-[640px]:px-3 max-[640px]:text-[13px] cursor-pointer"><FiUserPlus /> <span>Register</span></Link>
                 </>
             )}
         </>
