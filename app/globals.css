@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #f4f7fd;
+  --color-foreground: #111827;
+  --font-sans: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  * { @apply box-border; }
+  html, body { @apply min-h-full; }
+  body { @apply m-0 bg-[#f4f7fd] font-sans text-[#111827]; }
+  a { @apply no-underline; }
+}

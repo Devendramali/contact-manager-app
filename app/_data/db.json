@@ -1,0 +1,44 @@
+
+
+{
+  "contacts": [
+    {
+      "name": "Deva bhau",
+      "email": "DEVENDRAMALI241201@GMAIL.COM",
+      "userid": "1",
+      "id": "UFYZFi3z-vo"
+    },
+    {
+      "name": "digihost",
+      "email": "devendra.mali@digihost.in",
+      "userid": "1",
+      "id": "6syIv2FnxWQ"
+    },
+    {
+      "name": "Name Surname",
+      "email": "devendra.mali@digihost.in",
+      "id": "guaIIK3Exi8"
+    },
+    {
+      "name": "EN1A Free Cutting Leaded",
+      "email": "DEVENDRAMALI241201@GMAIL.COM",
+      "userid": "g--Pe8PzjRM",
+      "id": "X_nS1bOiTfo"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Rajesh Mali",
+      "email": "rajupatil@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "Devendra Mali",
+      "email": "devendra.mali@digihost.in",
+      "password": "123456",
+      "id": "g--Pe8PzjRM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
